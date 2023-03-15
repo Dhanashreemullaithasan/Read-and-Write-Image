@@ -23,40 +23,60 @@ End the program and close the output image windows.
 ### Register Number: 
 i) #To Read,display the image
 ```
-  
+import cv2
+N=cv2.imread("flower.jpg",1)
+cv2.imshow("new",N)
+cv2.waitKey(0)  
 
 ```
 ii) #To write the image
 ```
-
-
-
+import cv2
+N=cv2.imread("flower.jpg",1)
+cv2.imwrite("flower.jpg",N)
+cv2.imshow("new",N)
+cv2.waitKey(0)
 ```
 iii) #Find the shape of the Image
-```python3
-
-
-
+```
+import random
+import cv2
+N=cv2.imread("flower.jpg",1)
+for i in range(100):
+    for j in range(N.shape[1]):
+        N[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("new",N)
+cv2.waitKey(0)
 ```
 iv) #To access rows and columns
 
-```python3
-
-
-
+```
+import random
+import cv2
+N=cv2.imread("flower.jpg",1)
+for i in range(100):
+    for j in range(N.shape[1]):
+        N[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("new",N)
+cv2.waitKey(0)
 ```
 v) #To cut and paste portion of image
-```python3
-
-
-
+```
+import cv2
+N=cv2.imread("flower.jpg",1)
+tag=N[140:240,165:180]
+N[25:125,50:65]=tag
+cv2.imshow("new",N)
+cv2.waitKey(0)
 ```
 
 ## Output:
 
 ### i) Read and display the image
 
+  
 <br>
+
 <br>
 
 ### ii)Write the image
