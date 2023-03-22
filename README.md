@@ -74,28 +74,21 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-  
-<br>
-
-<br>
+![output](./dip%20ex1.png)
 
 ### ii)Write the image
 
-<br>
-<br>
+![output](./dipex12.png)
 
 ### iii)Shape of the Image
 
-<br>
-<br>
+![output](./dipex13.png)
 
 ### iv)Access rows and columns
-<br>
-<br>
+![output](./dipex14.png)
 
 ### v)Cut and paste portion of image
-<br>
-<br>
+![output](./dipex15.png)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
